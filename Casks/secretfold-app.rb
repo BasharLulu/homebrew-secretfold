@@ -5,7 +5,7 @@
 # caveats explain the one-time "Open anyway" step.
 cask "secretfold-app" do
   version "0.3.0"
-  sha256 "0ebbe5754ba5d6f0cacec9647f5e9cef313a9a2efee5634d61dcd39cb9b4b214"
+  sha256 "b8366eaef5b4afccf5c9929f68c1052d5da400c2ff32a2228d07c26a33411354"
 
   url "https://secretfold.com/download/v0.3.0/Secretfold_0.3.0_universal.dmg"
   name "Secretfold"
@@ -22,9 +22,4 @@ cask "secretfold-app" do
     "~/Library/Caches/com.secretfold.app",
     "~/Library/WebKit/com.secretfold.app",
   ]
-
-  caveats <<~EOS
-    Secretfold isn't signed with an Apple Developer ID yet. The first time, open it from
-    Finder with right-click > Open, or allow it in System Settings > Privacy & Security.
-  EOS
 end

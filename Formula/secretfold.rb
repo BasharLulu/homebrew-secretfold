@@ -10,22 +10,22 @@ class Secretfold < Formula
   on_macos do
     on_arm do
       url "https://secretfold.com/download/v0.3.0/secretfold-aarch64-apple-darwin.tar.gz"
-      sha256 "9b63e0e78bf2bd72a0676f0d9f90ccf65208567ddb2d7475904e09772387816e"
+      sha256 "e089c55bb06956a1cf045d5c188b6e2425574b1c7d7d89cb2878fedde2f51c24"
     end
     on_intel do
       url "https://secretfold.com/download/v0.3.0/secretfold-x86_64-apple-darwin.tar.gz"
-      sha256 "22924586b941341683f7ba195bae08d51e685124c08dddae1fb67a95f3c1ef76"
+      sha256 "a31aedd012f5aa6eb6df225d88c252b236236c186d3b88a1465ede5dafa9b658"
     end
   end
 
   on_linux do
     on_arm do
       url "https://secretfold.com/download/v0.3.0/secretfold-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "21f72661b6b5e57629a86f691129f999bd501a97ab8b4d3dab7dea78fcf69abb"
+      sha256 "3b7947637905ae91231c1da8a4f7726f4da8151c5c750bbed3ede5528d9c2ba1"
     end
     on_intel do
       url "https://secretfold.com/download/v0.3.0/secretfold-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "95a38010727766e744f838e020fcec4f1cc4ccf8ff2ab7607b3d7e53eb2dd422"
+      sha256 "184a3a1516bae17d8fc6759cc30ecd6295344884a71a720b106a0c6ae4a84c8b"
     end
   end
 
