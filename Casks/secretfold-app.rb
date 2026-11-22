@@ -5,7 +5,7 @@
 # caveats explain the one-time "Open anyway" step.
 cask "secretfold-app" do
   version "0.3.0"
-  sha256 "b8366eaef5b4afccf5c9929f68c1052d5da400c2ff32a2228d07c26a33411354"
+  sha256 "355f480910f3bf9f6757b576da088ca1b32ae3ad9a26cb65239fd3f96cca7405"
 
   url "https://secretfold.com/download/v0.3.0/Secretfold_0.3.0_universal.dmg"
   name "Secretfold"
