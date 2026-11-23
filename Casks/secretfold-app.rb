@@ -4,10 +4,10 @@
 # Until the app is signed with an Apple Developer ID, macOS blocks the first launch: the
 # caveats explain the one-time "Open anyway" step.
 cask "secretfold-app" do
-  version "0.3.1"
-  sha256 "80331a0b2b969b90bd4f9b6fcdb1109164559af453eb50c2c910512ec82af400"
+  version "0.3.2"
+  sha256 "ac0449cf550a98a6667ad1622cf560308f4c4ec8a36e13a2c4a9a2578ec8ace8"
 
-  url "https://secretfold.com/download/v0.3.1/Secretfold_0.3.1_universal.dmg"
+  url "https://secretfold.com/download/v0.3.2/Secretfold_0.3.2_universal.dmg"
   name "Secretfold"
   desc "Encrypted vault for API keys, tokens and .env secrets"
   homepage "https://secretfold.com"
