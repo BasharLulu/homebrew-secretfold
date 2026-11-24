@@ -4,28 +4,28 @@
 class Secretfold < Formula
   desc "Encrypted vault for API keys, tokens and .env secrets"
   homepage "https://secretfold.com"
-  version "0.3.3"
+  version "0.3.4"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://secretfold.com/download/v0.3.3/secretfold-aarch64-apple-darwin.tar.gz"
-      sha256 "222dc8fa6b2cccfbfcf1dd26d0aea0557232b594a843557e113a9409cc8aa9e0"
+      url "https://secretfold.com/download/v0.3.4/secretfold-aarch64-apple-darwin.tar.gz"
+      sha256 "ae1246f8fe354a951040709881dd7b37744b6c91155709d5ad92805bd8ec2ded"
     end
     on_intel do
-      url "https://secretfold.com/download/v0.3.3/secretfold-x86_64-apple-darwin.tar.gz"
-      sha256 "1ad24c374b0edebf0b126e9cf5465f069ca56414294d4916a9636d1e0c64b691"
+      url "https://secretfold.com/download/v0.3.4/secretfold-x86_64-apple-darwin.tar.gz"
+      sha256 "4e61630e9cbc099648416c0eeeb8ec8e5e63b921aa534c22b6177f0630fd09a5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://secretfold.com/download/v0.3.3/secretfold-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1b16eb73355ef7c0bc680019da14393b9b65d7fc8639712a635ef35d2419a837"
+      url "https://secretfold.com/download/v0.3.4/secretfold-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e1a28a5e57747b5e5dddc01eff541929c1b380cc45679304b09826f3cb71eb1c"
     end
     on_intel do
-      url "https://secretfold.com/download/v0.3.3/secretfold-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a3db4e29ef4192318b0cc8327e1845f4941422dfbc011341f3c4bc7fc04b4fe2"
+      url "https://secretfold.com/download/v0.3.4/secretfold-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "626cbf195d281781176db6335e68726cb67ee4d0045d1cc52a0d72e0919d4d85"
     end
   end
 
